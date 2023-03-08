@@ -11,14 +11,15 @@ const [products] = state.productsApi.products
 const [detailProduct, setDetailProduct] = useState([])
 
 useEffect(()=>{
- if(params){
+    console.log('re render');
+
+ if(params.id){
   products.forEach(element => {
     if(element._id === params.id) setDetailProduct(element)
   });
  }
-},[params,products])
+},[params.id,products])
 
-console.log(detailProduct);
 if(detailProduct.length === 0) return null;
 
     return (

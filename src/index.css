@@ -38,10 +38,10 @@ button{
 @import url('./component/mainpages/products/product.css');
 
 /* ---------------- Detail Product --------------- */
-/* @import url("./components/mainpages/detailProduct/detailProduct.css"); */
+@import url("./component/mainpages/detailproduct/detailProduct.css");
 
 /* ------------- Login/Register ----------------- */
-/* @import url("./components/mainpages/auth/login.css"); */
+@import url("./component/mainpages/auth/login.css");
 
 /* ------------ Cart ------------------- */
 /* @import url("./components/mainpages/cart/cart.css"); */
